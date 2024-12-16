@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gallery-item p {
+            padding: 10px;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Fotoğraf Galerim</h1>
+    <nav>
+        <a href="file:///C:/Users/PC/Desktop/metin7.html">Ana Sayfa</a>
+        <a href="file:///C:/Users/LAB-5/Downloads/galeri.html">Galeri</a>
+        <a href="#">Hizmetler</a>
+        <a href="#">İletişim</a>
+    </nav>
+
+
+    
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="foto1.jpeg" alt="Fotoğraf 1">
+            <p>Mercedes CLA200</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto2.jpeg" alt="Fotoğraf 2">
+            <p>Peugot 5008</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto3.jpeg" alt="Fotoğraf 3">
+            <p>Tospa</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto4.jpeg" alt="Fotoğraf 4">
+            <p>BMW X8</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto5.jpeg" alt="Fotoğraf 5">
+            <p>Opel Vectra</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
